@@ -1,6 +1,7 @@
 # Projeto "Relógio Digital"
 
 <img src = "relogio_digital.png">
+<img src = "relogio_digital_responsivo.png">
 
 O projeto foi desenvolvido como forma de prática dos conceitos básicos de HTML, CSS e JavaScript.
 
