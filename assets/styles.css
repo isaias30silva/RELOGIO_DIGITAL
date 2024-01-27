@@ -53,3 +53,21 @@ body {
 .relogio span.tempo {
     font-size: 1vw; /* Alterado para fonte responsiva usando vw */
 }
+
+/* Adicionando uma media query para telas menores (ex. celulares) */
+@media only screen and (max-width: 600px) {
+    .titulo {
+        text-align: center; /* Centralizando o título para telas menores */
+        margin-bottom: 10px; /* Ajustando a margem inferior */
+    }
+
+    .relogio {
+        flex-direction: column; /* Mudando para uma disposição de coluna em telas menores */
+        max-width: 80%; /* Reduzindo a largura máxima */
+    }
+
+    .relogio div {
+        width: 80%; /* Reduzindo a largura dos elementos internos */
+        margin-bottom: 10px; /* Ajustando a margem inferior */
+    }
+}
